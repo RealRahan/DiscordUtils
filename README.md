@@ -1,6 +1,6 @@
-# This package is not maintained anymore
+# make your bot cool with this package
 
-# DiscordUtils
+# DiscordBotTools
 A very useful library made to be used in with [discord.py](https://pypi.org/project/discord.py/)
 
 # Installation
