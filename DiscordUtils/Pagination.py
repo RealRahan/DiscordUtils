@@ -108,7 +108,7 @@ class CustomEmbedPaginator(object):
         self.control_emojis = []
         self.control_commands = []
         self.auto_footer = kwargs.get("auto_footer", False)
-        self.remove_reactions = kwargs.get("remove_reactions", False)
+        self.remove_reactions = kwargs.get("remove_reactions", True)
     def add_reaction(self, emoji, command):
         self.control_emojis.append(emoji)
         self.control_commands.append(command)
