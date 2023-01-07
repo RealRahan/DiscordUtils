@@ -6,13 +6,9 @@ A very useful library made to be used in with [discord.py](https://pypi.org/proj
 # Installation
 For access to Pagination and InviteTracker use:
 ```
-pip install DiscordUtils
+pip install git+https://github.com/RealRahan/DiscordUtils
 ```
 
-or, instead use the following for access to Music functions aswell
-```
-pip install DiscordUtils[voice]
-```
 Requires discord.py[voice] so make sure you have all dependencies of it installed.
 
 # Example code
@@ -152,14 +148,14 @@ async def remove(ctx, index):
     await ctx.send(f"Removed {song.name} from queue")
 ```
 
-For further information please read the docs
+For further information please read the examples in the project
 
 # Links
-**[Documentation](https://docs.discordutils.gq)**
 
-**[Github](https://github.discordutils.gq)**
+**[Github](https://github.com/RealRahan)**
 
-# Support
-**__Please make sure that you are on the latest version of [DiscordUtils](https://pypi.org/project/DiscordUtils) and [youtube_dl](https://pypi.org/project/youtube_dl) before contacting for support__**
+**# support**
 
-DM/PM `toxic_recker#2795` on Discord for support
+**__Please make sure that you are on the latest version of [DiscordUtils](https://github.com/RealRahan/DiscordUtils) and [youtube_dl](https://pypi.org/project/youtube_dl) before contacting for support__**
+
+DM/PM `RealRahan#6809` on Discord for support
